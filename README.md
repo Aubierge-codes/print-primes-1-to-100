@@ -7,7 +7,7 @@ FOR each number from 2 to 100 DO
     SET isPrime to true
 
     FOR each i from 2 to number - 1 DO
-        IF number MOD i == 0 THEN
+        IF number MOD i ← 0 THEN
             SET isPrime to false
             BREAK inner loop
         END IF
